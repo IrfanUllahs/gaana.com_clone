@@ -22,7 +22,7 @@ const Searchbar = () => {
           autoComplete="off"
           className="p-2 focus-within:p-0 focus-within:py-2  text-gray-400 focus-within:text-gray-600 group "
         >
-          <div className="flex flex-row justify-start items-center rounded-full bg-white h-[40px] w-[100%] gap-2 text-[12px]  group-focus-within:border-b overflow-hidden group-focus-within:rounded-none   ">
+          <div className="flex flex-row justify-start items-center rounded-full bg-white h-[40px] w-[100%] gap-2 text-[12px]  group-focus-within:border-b overflow-hidden group-focus-within:rounded-none   dark:bg-[#1B1B1B] ">
             <FiSearch aria-hidden="true" className="w-5 h-5 ml-4" />
             <input
               name="search-field"
